@@ -2,9 +2,9 @@
 
 void printArray(int *a, int count)
 {
- for(i = count; i < count; i++) 
+ for(int i = 0; i < count; i++) 
  {
- printf("the number is %d/n", a[i]);
+ printf("the number is %d\n", a[i]);
  }
   
   
